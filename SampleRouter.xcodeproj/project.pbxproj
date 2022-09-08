@@ -16,6 +16,11 @@
 		FCE3216A28C88E300059F159 /* SampleRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3216928C88E300059F159 /* SampleRouterTests.swift */; };
 		FCE3217428C88E310059F159 /* SampleRouterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3217328C88E310059F159 /* SampleRouterUITests.swift */; };
 		FCE3217628C88E310059F159 /* SampleRouterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3217528C88E310059F159 /* SampleRouterUITestsLaunchTests.swift */; };
+		FCE3218328C88F080059F159 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3218228C88F080059F159 /* Router.swift */; };
+		FCE3218528C88F390059F159 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3218428C88F390059F159 /* SampleViewController.swift */; };
+		FCE3218728C9C0030059F159 /* NavigationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3218628C9C0030059F159 /* NavigationStyle.swift */; };
+		FCE3218928C9EEE60059F159 /* UIStoryboard+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3218828C9EEE60059F159 /* UIStoryboard+.swift */; };
+		FCE3218B28C9F0E60059F159 /* Sample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE3218A28C9F0E60059F159 /* Sample.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		FCE3216F28C88E310059F159 /* SampleRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE3217328C88E310059F159 /* SampleRouterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRouterUITests.swift; sourceTree = "<group>"; };
 		FCE3217528C88E310059F159 /* SampleRouterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRouterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCE3218228C88F080059F159 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		FCE3218428C88F390059F159 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		FCE3218628C9C0030059F159 /* NavigationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStyle.swift; sourceTree = "<group>"; };
+		FCE3218828C9EEE60059F159 /* UIStoryboard+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+.swift"; sourceTree = "<group>"; };
+		FCE3218A28C9F0E60059F159 /* Sample.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sample.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +111,13 @@
 			children = (
 				FCE3215228C88E280059F159 /* AppDelegate.swift */,
 				FCE3215428C88E280059F159 /* SceneDelegate.swift */,
-				FCE3215628C88E280059F159 /* ViewController.swift */,
+				FCE3218828C9EEE60059F159 /* UIStoryboard+.swift */,
+				FCE3218228C88F080059F159 /* Router.swift */,
+				FCE3218628C9C0030059F159 /* NavigationStyle.swift */,
 				FCE3215828C88E280059F159 /* Main.storyboard */,
+				FCE3215628C88E280059F159 /* ViewController.swift */,
+				FCE3218A28C9F0E60059F159 /* Sample.storyboard */,
+				FCE3218428C88F390059F159 /* SampleViewController.swift */,
 				FCE3215B28C88E300059F159 /* Assets.xcassets */,
 				FCE3215D28C88E300059F159 /* LaunchScreen.storyboard */,
 				FCE3216028C88E300059F159 /* Info.plist */,
@@ -233,6 +248,7 @@
 			files = (
 				FCE3215F28C88E300059F159 /* LaunchScreen.storyboard in Resources */,
 				FCE3215C28C88E300059F159 /* Assets.xcassets in Resources */,
+				FCE3218B28C9F0E60059F159 /* Sample.storyboard in Resources */,
 				FCE3215A28C88E280059F159 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCE3218928C9EEE60059F159 /* UIStoryboard+.swift in Sources */,
+				FCE3218328C88F080059F159 /* Router.swift in Sources */,
+				FCE3218728C9C0030059F159 /* NavigationStyle.swift in Sources */,
 				FCE3215728C88E280059F159 /* ViewController.swift in Sources */,
+				FCE3218528C88F390059F159 /* SampleViewController.swift in Sources */,
 				FCE3215328C88E280059F159 /* AppDelegate.swift in Sources */,
 				FCE3215528C88E280059F159 /* SceneDelegate.swift in Sources */,
 			);
