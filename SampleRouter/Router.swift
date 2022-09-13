@@ -7,6 +7,25 @@
 
 import Foundation
 import UIKit
+//import RxSwift
+//import RxCocoa
+//
+//extension Reactive where Base: UIViewController {
+//
+//    var viewWillAppear: Observable<Void> {
+//        return sentMessage(#selector(base.viewWillAppear(_:)))
+//            .map { _ in () }
+//            .share(replay: 1, scope: .whileConnected)
+//    }
+//}
+//
+//    final class Router {
+//
+//        static func showSample(vc: UIViewController) {
+//                let sample = UIStoryboard(name: "Sample", bundle: nil).instantiateInitialViewController() as! SampleViewController
+//                vc.navigationController?.pushViewController(sample, animated: true)
+//            }
+//    }
 
 final class Router {
     
